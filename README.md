@@ -8,3 +8,8 @@ Make sure to have a large enough post buffer for making commits with new noteboo
 
 git config --global http.postBuffer 524288000  # 500MB
 
+Also, make sure to install git-lfs: 
+```sh
+brew install git-lfs
+git lfs install
+```
