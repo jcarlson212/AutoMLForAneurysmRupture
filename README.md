@@ -13,3 +13,9 @@ Also, make sure to install git-lfs:
 brew install git-lfs
 git lfs install
 ```
+
+To reproduce local notebook results, use,
+```sh
+conda env create -f ./envs/local_env.yaml
+```
+
